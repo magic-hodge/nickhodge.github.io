@@ -1,0 +1,30 @@
+/* For background color. */
+.weatherJournalApp {
+	background-color: #d2e9f9;
+}
+
+/* For h2 color. */
+.weatherJournalApp_h2 {
+	color: #092b43;
+}
+
+/* For h3 color. */
+.weatherJournalApp_h3 {
+	color: #0f4c75;
+}
+
+/* For p color. */
+.weatherJournalApp_p {
+	color: #0d0d0d;
+}
+
+/* For weather journal app button & hover */
+.weatherJournalAppButton {
+	color: #092b43;
+	background-color: #1776b5;
+}
+
+.weatherJournalAppButton:hover {
+	color: #78bced;
+	background-color: #0f4c75;
+}

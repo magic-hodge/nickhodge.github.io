@@ -1,0 +1,30 @@
+/* For background color. */
+.landingPage {
+	background-color: #ffcccc;
+}
+
+/* For h2 color. */
+.landingPage_h2 {
+	color: #1a0000;
+}
+
+/* For h3 color. */
+.landingPage_h3 {
+	color: #800000;
+}
+
+/* For p color. */
+.landingPage_p {
+	color: #0d0d0d;
+}
+
+/* For weather journal app button & hover */
+.landingPageButton {
+	color: #1a0000;
+	background-color: #cc0000;
+}
+
+.landingPageButton:hover {
+	color: #ff6666;
+	background-color: #800000;
+}

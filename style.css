@@ -1,0 +1,358 @@
+@import "fa_icons.css";
+@import "projectStyles.css";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	min-height: 90vh;
+}
+
+h1, h2, h3 {
+	margin: 20px;
+}
+
+h1 {
+	font-size: 5.625rem;
+	font-family: font-family: 'Patua One', cursive;
+	color: #092b43;
+}
+
+h2 {
+	font-size: 1.75rem;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #092b43;
+}
+
+h3 {
+	font-size: 1.25rem;
+	font-family: 'Roboto Slab', serif;
+	color: #0f4c75;
+}
+
+hr {
+	border: dotted #0f4c75 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
+}
+
+p {
+	margin: 20px;
+	font-size: 1.15rem;
+	line-height: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #0d0d0d;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	width: 100%;
+}
+
+.navLinks {
+	font-size: 1.25rem;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	color: #1776b5;
+}
+
+.navLinks:hover {
+	color: #092b43;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.navList {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navList li {
+	list-style-type: none;
+	margin: 0px 15px;
+}
+
+/* Styling for fading the mobile menu in when active class. */
+
+.nav-active {
+	opacity: 1;
+	transition: 0.5s ease-out;
+}
+
+/* Styling for the navLinks active state */
+
+.aLinkActive {
+	color: #b2c918;
+}
+
+.aboutActive {
+
+}
+
+.projectsActive {
+
+}
+
+.miscActive {
+
+}
+
+.activePage {
+	color: #092b43;
+}
+
+.homeImage {
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 100px;
+	margin: 15px;
+}
+
+.copyright {
+	margin: 20px;
+	font-size: 1rem;
+	line-height: 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.topImage {
+	width: 450px;
+	border-radius: 100px;
+}
+
+.topContainer {
+	/* background-color: #EAF6F6; */
+	color: #0d0d0d;
+}
+
+.profile {
+	width: 50%;
+ 	margin: 0px auto;
+}
+
+ .intro {
+	margin: 0px auto;
+ }
+
+.middleContainer {
+	background-color: #d2e9f9;
+}
+
+.footer {
+	color: #1776b5;
+	background-color: #092b43;
+	min-height: 15vh;
+}
+
+/*  font for footer... #092b43 */
+
+.imgIcon {
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 100px;
+	margin: 15px;
+}
+
+.skillRow {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 60px auto;
+	text-align: left;
+}
+
+.contactMe {
+	width: 50%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #d2e9f9
+}
+
+.contactButton {
+	width: 200px;
+	margin: 25px auto 100px auto;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	font-size: 1.25rem;
+	color: #092b43;
+	background: #1776b5;
+}
+
+.contactButton:hover {
+	color: #78bced;
+	background: #0f4c75;
+	transition: 0.5s ease;
+}
+
+.footerLinks {
+	font-size: 2.25vh;
+}
+
+.homeButton:hover {
+	box-shadow: 5px;
+	transition: 0.5s ease;
+}
+
+/* Media queries for smaller screens. */
+@media screen and (max-width: 1024px) {
+	
+nav{
+	justify-content: space-between;
+}
+
+	.homeImage {
+		max-width: 100px;
+		max-height: 100px;
+		border-radius: 200px;
+		margin: 25px;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+	.projectLinks {
+		display: none;
+	}
+
+	.projectList {
+		display: none;
+	}
+	
+	.projectText p {
+		width: 80%;
+		margin: 15px auto;
+	}
+
+	.intro,
+	.profile,
+	.skillRow,
+	.projectText,
+	.contactMe  {
+		width: 75%;
+	}
+
+	.contactMe p {
+		width: 65%;
+		margin: 10px auto;
+	}
+	
+	.scrollTop {
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		margin: 25px;
+		transform: translateY(-54px);
+	}
+
+	.up1 {
+		height: 6px;
+		width: 30px;
+		margin: 2px;
+		border-radius: 20px;
+		transform: rotate(-60deg) translate(22px, 22px);
+	}
+
+	.up2 {
+		height: 6px;
+		width: 50px;
+		margin: 2px;
+		border-radius: 20px;
+		transform: rotate(90deg) translate(0px, 0px);
+	}
+
+	.up3 {
+		height: 6px;
+		width: 30px;
+		margin: 2px;
+		border-radius: 20px;
+		transform: rotate(60deg) translate(-22px, 22px);
+	}
+
+	.showTop {
+		transform: translateY(-154px);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.homeImage {
+		max-width: 100px;
+		max-height: 100px;
+		border-radius: 200px;
+		margin: 25px;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+	.projectLinks {
+		display: none;
+	}
+
+	.projectList {
+		display: none;
+	}
+	
+	.projectText p {
+		margin: 10px auto;
+	}
+
+	.intro,
+	.profile,
+	.skillRow,
+	.projectText,
+	.contactMe  {
+		width: 85%;
+	}
+
+	.scrollTop {
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		margin: 25px;
+		transform: translateY(-54px);
+	}
+
+	.up1 {
+		height: 6px;
+		width: 30px;
+		margin: 2px;
+		border-radius: 20px;
+		transform: rotate(-60deg) translate(22px, 22px);
+	}
+
+	.up2 {
+		height: 6px;
+		width: 50px;
+		margin: 2px;
+		border-radius: 20px;
+		transform: rotate(90deg) translate(0px, 0px);
+	}
+
+	.up3 {
+		height: 6px;
+		width: 30px;
+		margin: 2px;
+		border-radius: 20px;
+		transform: rotate(60deg) translate(-22px, 22px);
+	}
+
+	.showTop {
+		transform: translateY(-154px);
+	}
+}

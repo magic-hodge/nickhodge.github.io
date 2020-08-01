@@ -1,0 +1,88 @@
+/* Styling for the FA social media icons. */
+
+.fa {
+	padding: 30px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+	color: #1776b5;
+}
+
+.fa:hover {
+	color: #78bced;
+	transition: 0.5s ease;
+}
+
+
+/* Styling for the facebook icon. */
+
+/*
+.fa-facebook {
+	color: #092b43;
+}
+
+.fa-facebook:hover {
+	color: #78bced;
+	background: #0f4c75;
+	transition: 0.5s ease;
+}
+*/
+
+/* Styling for the github icon. */
+
+/*
+.fa-github {
+	color: #092b43;
+}
+
+.fa-github:hover {
+	color: #78bced;
+	background: #0f4c75;
+	transition: 0.5s ease;
+}
+*/
+
+/* Styling for the instagram icon. */
+
+/*
+.fa-instagram {
+	color: #092b43;
+}
+
+.fa-instagram:hover {
+	color: #78bced;
+	background: #0f4c75;
+	transition: 0.5s ease;
+}
+*/
+
+/* Styling for the linkedin icon. */
+
+/*
+.fa-linkedin {
+	color: #092b43;
+}
+
+.fa-linkedin:hover {
+	color: #78bced;
+	background: #0f4c75;
+	transition: 0.5s ease;
+}
+*/
+
+/* Styling for the twitter icon. */
+
+/*
+
+.fa-twitter {
+	color: #092b43;
+}
+
+.fa-twitter:hover {
+	color: #78bced;
+	background: #0f4c75;
+	transition: 0.5s ease;
+}
+*/

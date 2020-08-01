@@ -1,0 +1,31 @@
+/* For background color. 90% */
+.pixelArt {
+	background-color: #ffccff;
+}
+
+/* For h2 color. 05% */
+.pixelArt_h2 {
+	color: #1a001a;
+}
+
+/* For h3 color. 25% */
+.pixelArt_h3 {
+	color: #800080;
+}
+
+/* For p color. 05% grey */
+.pixelArt_p {
+	color: #0d0d0d;
+}
+
+/* For weather journal app button & hover. color 05% back 40% */
+.pixelArtButton {
+	color: #1a001a;
+	background-color: #cc00cc;
+}
+
+/* hover color 70% hvr background 25% */
+.pixelArtButton:hover {
+	color: #ff66ff;
+	background-color: #800080;
+}

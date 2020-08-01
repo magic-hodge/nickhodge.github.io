@@ -1,0 +1,31 @@
+/* For background color. 90% */
+.adventureGame {
+	background-color: #d9f2d9;
+}
+
+/* For h2 color. 05% */
+.adventureGame_h2 {
+	color: #061306;
+}
+
+/* For h3 color. 25% */
+.adventureGame_h3 {
+	color: #206020;
+}
+
+/* For p color. 05% grey */
+.adventureGame_p {
+	color: #0d0d0d;
+}
+
+/* For weather journal app button & hover. color 05% back 40% */
+.adventureGameButton {
+	color: #061306;
+	background-color: #339933;
+}
+
+/* hover color 70% hvr background 25% */
+.adventureGameButton:hover {
+	color: #8cd98c;
+	background-color: #206020;
+}
