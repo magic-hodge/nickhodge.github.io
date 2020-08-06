@@ -1,16 +1,16 @@
 /* For background color. */
 .weatherJournalApp {
-	background-color: #d2e9f9;
+	background-color: #ffcccc;
 }
 
 /* For h2 color. */
 .weatherJournalApp_h2 {
-	color: #092b43;
+	color: #1a0000;
 }
 
 /* For h3 color. */
 .weatherJournalApp_h3 {
-	color: #0f4c75;
+	color: #800000;
 }
 
 /* For p color. */
@@ -20,11 +20,11 @@
 
 /* For weather journal app button & hover */
 .weatherJournalAppButton {
-	color: #092b43;
-	background-color: #1776b5;
+	color: #1a0000;
+	background-color: #cc0000;
 }
 
 .weatherJournalAppButton:hover {
-	color: #78bced;
-	background-color: #0f4c75;
+	color: #ff6666;
+	background-color: #800000;
 }

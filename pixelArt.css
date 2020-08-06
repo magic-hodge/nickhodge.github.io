@@ -1,16 +1,16 @@
 /* For background color. 90% */
 .pixelArt {
-	background-color: #ffccff;
+	background-color: #d9f2d9;
 }
 
 /* For h2 color. 05% */
 .pixelArt_h2 {
-	color: #1a001a;
+	color: #061306;
 }
 
 /* For h3 color. 25% */
 .pixelArt_h3 {
-	color: #800080;
+	color: #206020;
 }
 
 /* For p color. 05% grey */
@@ -20,12 +20,12 @@
 
 /* For weather journal app button & hover. color 05% back 40% */
 .pixelArtButton {
-	color: #1a001a;
-	background-color: #cc00cc;
+	color: #061306;
+	background-color: #339933;
 }
 
 /* hover color 70% hvr background 25% */
 .pixelArtButton:hover {
-	color: #ff66ff;
-	background-color: #800080;
+	color: #8cd98c;
+	background-color: #206020;
 }

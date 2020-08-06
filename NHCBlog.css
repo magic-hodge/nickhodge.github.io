@@ -1,16 +1,16 @@
 /* For background color. 90% */
 .NHCBlog {
-	background-color: #ffebcc;
+	background-color: #ffccff;
 }
 
 /* For h2 color. 05% */
 .NHCBlog_h2 {
-	color: #1a0f00;
+	color: #1a001a;
 }
 
 /* For h3 color. 25% */
 .NHCBlog_h3 {
-	color: #804d00;
+	color: #800080;
 }
 
 /* For p color. 05% grey */
@@ -20,12 +20,12 @@
 
 /* For weather journal app button & hover. color 05% back 40% */
 .NHCBlogButton {
-	color: #1a0f00;
-	background-color: #cc7a00;
+	color: #1a001a;
+	background-color: #cc00cc;
 }
 
 /* hover color 70% hvr background 25% */
 .NHCBlogButton:hover {
-	color: #ffc266;
-	background-color: #804d00;
+	color: #ff66ff;
+	background-color: #800080;
 }

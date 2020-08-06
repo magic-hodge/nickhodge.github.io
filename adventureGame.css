@@ -1,31 +1,31 @@
 /* For background color. 90% */
 .adventureGame {
-	background-color: #d9f2d9;
+	background-color: #ffd6cc;
 }
 
-/* For h2 color. 05% */
+/* For h2 color. 15% */
 .adventureGame_h2 {
-	color: #061306;
+	color: #4d0f00;
 }
 
 /* For h3 color. 25% */
 .adventureGame_h3 {
-	color: #206020;
+	color: #801a00;
 }
 
-/* For p color. 05% grey */
+/* For p color. */
 .adventureGame_p {
 	color: #0d0d0d;
 }
 
-/* For weather journal app button & hover. color 05% back 40% */
+/* For weather journal app button & hover 15%/40%*/
 .adventureGameButton {
-	color: #061306;
-	background-color: #339933;
+	color: #4d0f00;
+	background-color: #cc2900;
 }
 
-/* hover color 70% hvr background 25% */
+/* 70%/25% */
 .adventureGameButton:hover {
-	color: #8cd98c;
-	background-color: #206020;
+	color: #ff8566;
+	background-color: #801a00;
 }
