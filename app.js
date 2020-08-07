@@ -36,8 +36,9 @@ function scrollTo() {
 	const link3 = document.getElementById('link3');
 	const link4 = document.getElementById('link4');
 	const link5 = document.getElementById('link5');
+	const link6 = document.getElementById('link6');
 
-	const projectLinks = [link1, link2, link3, link4, link5];
+	const projectLinks = [link1, link2, link3, link4, link5, link6];
 
 	// Adds event listeners for each link in projectLinks.
 	

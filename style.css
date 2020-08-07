@@ -43,7 +43,6 @@ hr {
 
 p {
 	margin: 20px;
-	font-size: 1.15rem;
 	line-height: 30px;
 	font-family: 'Roboto Slab', serif;
 	color: #0d0d0d;
@@ -140,6 +139,7 @@ nav {
 }
 
  .intro {
+ 	font-size: 1.15rem;
 	margin: 0px auto;
  }
 
@@ -209,9 +209,9 @@ nav {
 /* Media queries for smaller screens. */
 @media screen and (max-width: 1024px) {
 	
-nav{
-	justify-content: space-between;
-}
+	nav{
+		justify-content: space-between;
+	}
 
 	.homeImage {
 		max-width: 100px;
@@ -287,8 +287,26 @@ nav{
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	
+	.intro {
+		font-size: 2rem;
+	}
+	
+	.mobileSkills h3 {
+		font-size: 2.25rem;
+		line-height: 45px;
+	}
+
+	.mobileSkills p {
+		font-size: 2rem;
+		line-height: 40px;
+	}
+
+	.navLinks {
+		font-size:2rem;
+	}
+
 	.homeImage {
 		max-width: 100px;
 		max-height: 100px;
@@ -317,7 +335,7 @@ nav{
 	.skillRow,
 	.projectText,
 	.contactMe  {
-		width: 85%;
+		width: 100%;
 	}
 
 	.scrollTop {
