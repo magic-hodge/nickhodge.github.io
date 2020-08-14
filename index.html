@@ -1,149 +1,194 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Nick Hodge</title>
+    <!-- General Stylesheet. -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Favicon. -->
+    <link rel="icon" href="favicon.ico" />
+    <!-- Google Fonts. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Patua+One&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FA Social Media icons. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<title>Nick Hodge</title>
-	<!-- General Stylesheet. -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- Favicon. -->
-	<link rel="icon" href="favicon.ico">
-	<!-- Google Fonts. -->
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Patua+One&family=Roboto+Slab&display=swap" rel="stylesheet">
-	<!-- FA Social Media icons. -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <body>
+    <!-- Top container including the nav, main header, and images. -->
+    <div class="topContainer">
+      <!-- The Nav. -->
+      <nav class="nav">
+        <div class="homeIcon">
+          <a href="index.html"
+            ><img
+              class="homeImage"
+              src="headshot_cropped.jpg"
+              alt="headshot_cropped.jpg"
+          /></a>
+        </div>
+        <div class="navLinks">
+          <ul class="navList">
+            <li>
+              <a id="about" class="navLinks activePage" href="index.html"
+                >About</a
+              >
+            </li>
+            <li>
+              <a id="projects" class="navLinks" href="projects.html"
+                >Projects</a
+              >
+            </li>
+            <li><a id="misc" class="navLinks" href="misc.html">Misc.</a></li>
+          </ul>
+        </div>
+      </nav>
 
-<body>
+      <!-- Main Title. -->
+      <h1>
+        I'm Nick.
+      </h1>
+      <h2>
+        a programmer.
+      </h2>
 
-	<!-- Top container including the nav, main header, and images. -->
-	<div class="topContainer">
-		
-		<!-- The Nav. -->
-		<nav class="nav">
-			<div class="homeIcon">
-				<a href="index.html"><img class="homeImage" src="headshot_cropped.jpg" alt="headshot_cropped.jpg"></a>
-			</div>
-			<div class="navLinks">
-				<ul class="navList">
-					<li><a id="about" class="navLinks activePage" href="index.html">About</a></li>
-					<li><a id="projects" class="navLinks" href="projects.html">Projects</a></li>
-					<li><a id="misc" class="navLinks" href="misc.html">Misc.</a></li>
-				</ul>
-			</div>
-		</nav>
+      <!-- The top image (or images). -->
+      <!-- <img class="topImage" src="..\images\thinker_cropped2.jpg" alt="thinker_cropped.jpg"> -->
+      <img class="skylineImg" src="lv_skyline3.jpg" />
+    </div>
 
-		<!-- Main Title. -->
-		<h1>
-			I'm Nick.
-		</h1>
-		<h2>
-			a programmer.
-		</h2>
-		
-		<!-- The top image (or images). -->
-		<!-- <img class="topImage" src="..\images\thinker_cropped2.jpg" alt="thinker_cropped.jpg"> -->
-		<img class="skylineImg" src="lv_skyline3.jpg">
-	</div>
-
-	<!-- Middle container with profile, skills, and contact. -->
+    <!-- Middle container with profile, skills, and contact. -->
     <div class="middleContainer">
-  		
-  		<!-- Profile. -->
-  		<div class="profile">
-    		
-    		<!-- Headshot. -->
-    		<img class="imgIcon" src="headshot_cropped.jpg" alt="headshot_cropped.jpg">
-    		
-    		<!-- Intro. -->
-    		<h2 class="mobileIntro">
-    			Hello!
-    		</h2>
-    		<p class="intro" class="mobileIntro">
-    			I'm a Web Developer based in Las Vegas, NV with a passion for front-end design. I love to create, learn, and improve. I'm also a world-class circus performer!
-    		</p>
-  		</div>
-  	
-  	<hr>
+      <!-- Profile. -->
+      <div class="profile">
+        <!-- Headshot. -->
+        <img
+          class="imgIcon"
+          src="headshot_cropped.jpg"
+          alt="headshot_cropped.jpg"
+        />
 
-	<!-- Skills. -->
-  	<div class="skills">
+        <!-- Intro. -->
+        <h2 class="mobileIntro">
+          Hello!
+        </h2>
+        <p class="intro" class="mobileIntro">
+          I'm a Web Developer based in Las Vegas, NV with a passion for
+          front-end design. I love to create, learn, and improve. I'm also a
+          world-class circus performer!
+        </p>
+      </div>
 
-    	<h2>
-    		My Skills.
-    	</h2>
-		
-		<!-- Skill 1 - Design & Development. -->
-    	<div class="skillRow">
+      <hr />
 
-      		<img class="imgIcon" id="developmentDesign" src="development_design_cropped.png" alt="development_design_cropped.png">
-		
-			<!-- Skill text. -->
-      		<div class="skillText">
-      			<h3 class="mobileSkills">
-      				Design & Development.
-      			</h3>
+      <!-- Skills. -->
+      <div class="skills">
+        <h2>
+          My Skills.
+        </h2>
 
-      			<p class="mobileSkills">
-      				I started learning web development to build an online coaching website. I quickly fell in love with the depth of the field and gained expereience designing responsive, front-end web applications. I offer skills in the following areas: HTML5, CSS3/SASS, Javascript/ES6, Vue.js, Node.js, Webpack, REST APIs, Git, Glitch, and more!
-      			</p>
-      		</div>
-    	</div>
+        <!-- Skill 1 - Design & Development. -->
+        <div class="skillRow">
+          <img
+            class="imgIcon"
+            id="developmentDesign"
+            src="development_design_cropped.png"
+            alt="development_design_cropped.png"
+          />
 
-		<!-- Skill 2 - Cyr Wheel. -->
-    	<div class="skillRow">
-      					
-			<!-- Skill text. -->
-      		<div class="skillText">
-      			<h3 class="mobileSkills">
-      				Cyr Wheel.
-      			</h3>
+          <!-- Skill text. -->
+          <div class="skillText">
+            <h3 class="mobileSkills">
+              Design & Development.
+            </h3>
 
-      			<p class="mobileSkills">
-      				But my best skill is actually performing Cyr Wheel. I spin, flip, & twist in a 6-foot-tall, steel ring. I've even been recognized by Cirque du Soleil!
-      			</p>
-      		</div>	
+            <p class="mobileSkills">
+              I started learning web development to build an online coaching
+              website. I quickly fell in love with the depth of the field and
+              gained expereience designing responsive, front-end web
+              applications. I offer skills in the following areas: HTML5,
+              CSS3/SASS, Javascript/ES6, React.js, Vue.js, Node.js, Webpack,
+              REST APIs, Git, Glitch, SQL, MongoDB, and more!
+            </p>
+          </div>
+        </div>
 
-      		<img class="imgIcon" id="headSupport" src="cyr_headSupport2.jpg" alt="cyr_headSupport.jpg">
+        <!-- Skill 2 - Cyr Wheel. -->
+        <div class="skillRow">
+          <!-- Skill text. -->
+          <div class="skillText">
+            <h3 class="mobileSkills">
+              Cyr Wheel.
+            </h3>
 
-    	</div>
-  </div>
+            <p class="mobileSkills">
+              But my best skill is actually performing Cyr Wheel. I spin, flip,
+              & twist in a 6-foot-tall, steel ring. I've even been recognized by
+              Cirque du Soleil!
+            </p>
+          </div>
 
-  <hr>
+          <img
+            class="imgIcon"
+            id="headSupport"
+            src="cyr_headSupport2.jpg"
+            alt="cyr_headSupport.jpg"
+          />
+        </div>
+      </div>
 
-  <!-- Contact section. -->
-  <div class="contactMe">
+      <hr />
 
-    <h2>
-    	Get In Touch.
-    </h2>
-    <h3>
-    	I'm currently available for full-time positions & freelance work.
-    </h3>
-    <p>
-    	If you'd like to discuss a position, start a project, or chat about Web Dev & Circus, shoot me a message!
-    </p>
+      <!-- Contact section. -->
+      <div class="contactMe">
+        <h2>
+          Get In Touch.
+        </h2>
+        <h3>
+          I'm currently available for full-time positions & freelance work.
+        </h3>
+        <p>
+          If you'd like to discuss a position, start a project, or chat about
+          Web Dev & Circus, shoot me a message!
+        </p>
 
-	<!-- Contact button. -->
-    <a class="contactButton" href="mailto:nick.m.hodge@gmail.com">✉ MESSAGE ME</a>
-  </div>
-</div>
+        <!-- Contact button. -->
+        <a class="contactButton" href="mailto:nick.m.hodge@gmail.com"
+          >✉ MESSAGE ME</a
+        >
+      </div>
+    </div>
+  </body>
 
-</body>
-
-<!-- Footer & copyright. -->
-<footer class="footer">
-	<!-- Social media & website links. -->
-    <div class="footerLinks">	
-    	<a href="https://www.facebook.com/nick.hodge.9" class="fa fa-facebook"></a>
-		  <a href="https://github.com/magic-hodge" class="fa fa-github"></a>
-		  <a href="https://www.instagram.com/magic.hodge" class="fa fa-instagram"></a>
-		  <a href="https://www.linkedin.com/in/nicklhodge" class="fa fa-linkedin"></a>
-		  <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
-	  </div>
+  <!-- Footer & copyright. -->
+  <footer class="footer">
+    <!-- Social media & website links. -->
+    <div class="footerLinks">
+      <a
+        href="https://www.facebook.com/nick.hodge.9"
+        class="fa fa-facebook"
+      ></a>
+      <a href="https://github.com/magic-hodge" class="fa fa-github"></a>
+      <a
+        href="https://www.instagram.com/magic.hodge"
+        class="fa fa-instagram"
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/nicklhodge"
+        class="fa fa-linkedin"
+      ></a>
+      <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+    </div>
     <copyright class="copyright">
-    	<span class="copyrightText">© 2020 Nicholas Hodge. All rights reserved.</span>
+      <span class="copyrightText"
+        >© 2020 Nicholas Hodge. All rights reserved.</span
+      >
     </copyright>
-</footer>
-<script src="app.js" type="text/javascript"></script>
+  </footer>
+  <script src="app.js" type="text/javascript"></script>
 </html>
