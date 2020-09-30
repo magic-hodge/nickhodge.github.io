@@ -5,6 +5,38 @@
 @import "pixelArt.css";
 @import "adventureGame.css";
 
+/* Consistent styling. */
+
+/* For background color. */
+.allProjects {
+	background-color: #d2e9f9;
+}
+
+/* For h2 color. */
+.allProjects_h2 {
+	color: #092b43;
+}
+
+/* For h3 color. */
+.allProjects_h3 {
+	color: #0f4c75;
+}
+
+/* For p color. */
+.allProjects_p {
+	color: #0d0d0d;
+}
+
+/* For weather journal app button & hover */
+.allProjectsButton {
+	color: #092b43;
+	background-color: #1776b5;
+}
+
+.allProjectsButton:hover {
+	color: #78bced;
+	background-color: #0f4c75;
+}
 
 body {
 	overflow-x: hidden;
